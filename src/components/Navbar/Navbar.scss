@@ -1,0 +1,39 @@
+.navbar {
+  height: 105px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  padding: 0px 20px;
+  position: absolute;
+  width: 100%;
+  right: 0px;
+  @media (max-width: 768px) {
+    height: 70px;
+  }
+  h3 {
+    margin: 0px 0px;
+  }
+
+  .search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 20px;
+    &__icon {
+      width: 45px;
+      height: 45px;
+      text-align: center;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f5a52e;
+      border-radius: 800px;
+      color: #fff;
+      box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+        0 6px 10px 0 rgba(0, 0, 0, 0.14), 8px 2px 9px -2px rgba(0, 0, 0, 0.36);
+      cursor: pointer;
+    }
+  }
+}
